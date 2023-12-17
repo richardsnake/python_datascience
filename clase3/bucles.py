@@ -1,5 +1,5 @@
 
-lista = [7,0,1,3,4,6,5,2,8,9]
+lista = [7,2,1,3,4,6,5,0,8,9]
 #for
 print("antes del for")
 suma = 0
@@ -47,16 +47,18 @@ else:
     print("se terminó el while")
 print("fin")
 
-#ejemplo de break [7,0,1,3,4,6,5,2,8,9]
+#ejemplo de break [7,2,1,3,4,6,5,0,8,9]
+
+#break: rompe el bucle
+#continue: reinicia el bucle con el siguiente valor
+#pass : te permite ejecutar la sioguiente linea de codigo (igual como si no existiera)
 
 for i in lista:
     print(i)
-    if i ==4:
+    if i%2==0:
         break
-    else:
-        pass
     print("despues de la condicion")
-else:
-    print("acaba for break")
+    continue #pass
+    print("despues del continue")
 
 print("otra nueva linea")
