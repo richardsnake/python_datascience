@@ -13,5 +13,4 @@ lista.append("Hola Male")
 print(lista)
 vector2.append(-5)
 print(vector2)
-vector2.
 print(vector2)

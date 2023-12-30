@@ -1,5 +1,5 @@
 import aritmetica as arit
-#from aritmetica import sumar, multiplicar, potencia, g
+from aritmetica import sumar, multiplicar, potencia, g
 from math import pi
 #import funciones.trigonometria as trigo
 
